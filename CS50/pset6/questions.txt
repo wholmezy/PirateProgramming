@@ -1,0 +1,31 @@
+0.  A lung diesease, also the longest word in the english dictionary (45 ltrs);
+1.  getrusage gets how much RAM or disk space and other intersting statistics
+for you, stored to a pointer, in spellers case &before and &after.
+2.  16
+3.  because then you know how much space the library takes.
+
+4.  the loop starts by reading one letter(character) at a time into c from the 
+text file with the fgetc function, if the letter is not an end of file character continue the loop.
+If the character in c is an alphabetical character via the isalpha function or
+if the c character is the end of word(string) character \o put that character into
+the word array with size 46 (pneumonoultramicroscopicsilicovolcanoconiosis\o) at 
+place 0 in the array, then increase index which is the position in the array.
+if index goes above 46 keep "reading" the text until it reaches EOF and is not 
+an alphabetical character, then make index = 0. If the character, c, is not 
+an alphabetical character check whether its an digit, if it is consume the text
+until EOF and not alphabetical and make index 0. If neither of those if statements
+are furfilled, and index is more than 0, make the last char in the word array = \0
+make words++; and check if the word is mispelled, add ti_check and before and after.
+if misspelled is true, print what word it is and increment misspellings. 
+make index = 0.
+
+5.  fgetc is more precise in that it compares each character with characters in 
+the words in the dictionary, while fscanf will not know which characters are
+wrong. Uppercase letters might also cause problems. 
+6.  They does not need to change...... I D K..
+7.  hash table
+8.  10 seconds.
+9.  I removed some printf statements I made for bug fixing and I made some minor changes 
+but nothing grand.
+10. Not that I have found right now, maybe that not many words will reach the 500th 
+index in the hashtable because of the hash function.

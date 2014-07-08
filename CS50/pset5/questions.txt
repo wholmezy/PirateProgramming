@@ -1,0 +1,58 @@
+0.  Color Depth
+	JPEG = 2 ^ 24
+	BMP = Various
+	GIF = 256, 2^8
+	PNG = 8 || 24 || 48
+	
+
+1.  GIF and PNG allows for animations.
+
+2.  Lossy compression is where you recolour different parts of an image so
+it looks the same but you actually change the picture. Lossless is where you 
+break the picture into smaller parts which you then put together exactly
+as they where before. The difference between lossy and lossless is that lossy
+is not the same as it was before it was compressed while lossless is exactly
+the same as it was before it was compressed.
+
+3.	JPEG is lossy.
+	BMP is NONE.
+	GIF is lossLess
+	PNG is lossLess
+
+4.  It is moved to the space in the disk where memory which is to be used are.
+
+5.  Either physically destroy the disk or by installing a sanatizing software
+which overwrites all my files with trash numbers.
+
+6.  The stdint.h library enables a set width on an integer, for example make an int with 
+the decided width of 32 bits or 16 bits.
+
+7.  stdint is useful because it has a set number of bits inside of it instead of the usual 
+int size. This allows for more space in the int. 
+
+8.  Byte = 1 byte
+	Dword = 4 bytes
+	Word = 2 bytes
+	Long = 4 bytes
+9.  "BM" 42 4D
+
+10. bfSize = Size in bytes of the bmp file.
+	biSize = the number of bytes required by the structure.
+	
+
+11. biHeight = negative == the bitmap is top down and the origin is in the upper-left 
+corner.
+
+12. biBitCount specifies the color depth.
+
+13. If there is no filetype with the infile name.
+
+14. 
+
+15. It should equal to one.
+
+16. It sets the files position indifcator.
+
+17. It tells fseek to start relative to the current  position of the indicator. 
+
+18. Milo Banana dun it.
