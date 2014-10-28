@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
 
-
+//Frans #307
 
 public class SpellList {
 	public static void main(String[] args){
